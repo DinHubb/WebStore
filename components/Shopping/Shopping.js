@@ -148,7 +148,7 @@ class Cart {
                                       <span class="cart__vender-code__id">№ ${id}</span>
                                       <span class="cart__img-sale">${salesNumber}%</span>
                                     </div>
-                                    <div class="cart__img"><img src="${slide1}" alt=""></div>
+                                    <div class="cart__img"><img src="../${slide1}" alt=""></div>
                                 </td>
                                 <td data-id="description" class="cart-frame__description"><span
                                         class="cart__description">${name}</span></td>
@@ -179,7 +179,7 @@ class Cart {
                                 <td class="cart-frame__img">
                                     <div class="cart__vender-code"><span class="cart__vender-code__id">№
                                             ${id}</span></div>
-                                    <div class="cart__img"><img src="${slide1}" alt="${alt}"></div>
+                                    <div class="cart__img"><img src="../${slide1}" alt="${alt}"></div>
                                 </td>
                                 <td data-id="description" class="cart-frame__description"><span
                                         class="cart__description">${name}</span></td>

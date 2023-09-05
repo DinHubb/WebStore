@@ -124,7 +124,7 @@ img {
   height: 32px;
   padding: 5px;
   background: url("../images/general/icons/heart.svg") no-repeat;
-  background-position: center;
+  background-position: 50%;
   background-color: #ffffff;
   border-radius: 100%;
   cursor: pointer;
@@ -143,7 +143,7 @@ img {
   border-radius: 100%;
   cursor: pointer;
   background: url("../images/general/icons/heart-like-bg.svg")
-    no-repeat center;
+    no-repeat;
   background-position: 50% 50%;
   background-size: 83%;
   background-color: #ffffff;

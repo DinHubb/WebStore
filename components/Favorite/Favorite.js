@@ -77,7 +77,7 @@ class Favorite {
                     <div class="new-arrivals__card-img __general-card__img">
                         <a href="${link}">
                             <div class="general__card-img__items">
-                                <img src="${slide1}" class="general__card-img__item" alt="${alt}">
+                                <img src="../${slide1}" class="general__card-img__item" alt="${alt}">
                             </div>
                         </a>    
                         <div class="new-arrivals__card-mark __general__card-mark">
@@ -153,7 +153,7 @@ class Favorite {
                     <div class="new-arrivals__card-img __general-card__img">
                         <a href="${link}">
                             <div class="general__card-img__items">
-                                <img src="${slide1}" class="general__card-img__item" alt="${alt}">
+                                <img src="../${slide1}" class="general__card-img__item" alt="${alt}">
                             </div>
                         </a>    
                         <div class="new-arrivals__card-mark __general__card-mark">

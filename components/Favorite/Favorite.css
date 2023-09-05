@@ -9,6 +9,7 @@
 }
 .favorite__products {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 80px 15px 130px 15px;
   gap: 20px;

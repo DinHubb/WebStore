@@ -27,7 +27,7 @@ class Header {
     const htmlHeader = `<div class="header__container">
                 <div class="header__content secondery__header__content">
                     <div class="header__logo-nav">
-                        <div class="logo"><a href="../index.html"><img src="/images/general/logo.png" width="60px"
+                        <div class="logo"><a href="../index.html"><img src="./images/general/logo.png" width="60px"
                                     height="60px" alt=""></a></div>
                         <nav class="header__nav">
                             <button class="close__menu-burger">
