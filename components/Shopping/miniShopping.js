@@ -138,7 +138,7 @@ class MiniCart {
         <div class="header__cart-menu">
             <div class="cart-list__navigation">    
                 <button class="cart__menu__close" onclick="miniCart.handleCloseShoppingMenu();"></button>
-                <button class="autocomplete__history cart__delete__history" onclick = "miniCart.handleClierShoppingMenu();">Очистить</button>
+                <button class="autocomplete__history cart__delete__history" onclick="miniCart.handleClierShoppingMenu();">Очистить</button>
                 <a href="./pages/cart.html" class="cart-link__menu">Открыть карзину</a>
             </div>
             <ul class="header__cart__menu">

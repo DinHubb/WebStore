@@ -95,6 +95,13 @@ class Cart {
     totalPriceProduct.textContent = totalPrice + "tjs";
   }
 
+  handleClierCartList(){
+    localStorage.removeItem("products");
+    this.render();
+    productsPage.render();
+    header.render();
+  }
+
   render() {
     const productsStorage = localStorageUtil.getProducts();
     const favoriteStorage = localStorageUtil.getFavorite();
@@ -244,9 +251,8 @@ class Cart {
                             </div>
                             <div class="cart-total__order">
                                 <div class="cart-total__order__menu">
-                                    <button class="cart-total__action-continue">Продолжить покупку</button>
-                                    <button class="cart-total__action-clier __buttons-bg__cart">Очистить
-                                        карзину</button>
+                                    <button class="cart-total__action-continue"><a href="../index.html">Продолжить покупку</a></button>
+                                    <button class="cart-total__action-clier __buttons-bg__cart" onclick="cartList.handleClierCartList();">Очистить карзину</button>
                                 </div>
                                 <button class="cart-total__order__products __buttons-bg__cart"><span
                                         class="cart__check__btn">✔</span>Оформить
